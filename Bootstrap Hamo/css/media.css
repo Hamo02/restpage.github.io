@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1205px){
+    .navba{
+        display: none;
+    }
+    .blin{
+        display: block;
+    }
+    .li1{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .ul1{
+        display: block;
+    }
+    .shareicons{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .scrollNav{
+        display: none;
+    }
+    .bigtext{
+        font-size: 75px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 414px){
+    .bigtext{
+        font-size: 40px;
+    }
+    .input2{
+        margin-left: 0px;
+    }
+    .input1{
+        margin-right: 0px;
+    }
+
+
+}

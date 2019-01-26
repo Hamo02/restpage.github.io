@@ -1,0 +1,533 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.firstblog {
+    width: 100%;
+    height: 750px;
+    background-image: url("../Files/content1.png");
+    background-size: cover;
+
+}
+
+.navba {
+    width: 100%;
+    position: fixed;
+    transition: 0.5s;
+
+}
+
+.ul1 {
+    list-style-type: none;
+    display: inline-flex;
+
+}
+
+.li1 {
+    width: 120px;
+    margin-top: 10px;
+    float: left;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: larger;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.shareicons {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.li1:hover {
+    background-color: rgba(28, 116, 48, 0.4);
+    transition: 0.7s;
+}
+
+.links:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.zagal {
+    /*margin-top: 40px;*/
+    text-align: center;
+}
+
+.bigtext {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 105px;
+    padding-top: 155px;
+
+}
+
+.naxsh {
+    text-align: center;
+}
+
+.inputdiv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input1 {
+    width: 180px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid black;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+
+.input2 {
+    width: 180px;
+    padding: 15px;
+    background-color: rgba(192, 192, 192, 0.3);
+    color: white;
+    border: 1px solid white;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+.secondblog {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 750px;
+    background-image: url("../Files/sec1bg.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_section {
+    width: 50%;
+    height: 80%;
+    float: left;
+}
+
+.right_section {
+    width: 50%;
+    height: 80%;
+    float: right;
+}
+
+.just_div {
+
+    text-align: center;
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+
+.spoon_div {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.secblog_header {
+    text-align: center;
+}
+
+.yel_naxsh {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.h2text {
+    color: #CF9F10;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 45px;
+}
+
+.signt_div {
+    text-align: center;
+}
+
+.p_div {
+    width: 70%;
+    text-align: unset;
+}
+
+.thirdblog {
+    width: 100%;
+    height: 820px;
+    background-image: url("../Files/sec2bg.png");
+    background-size: cover;
+}
+
+.third_right {
+    float: right;
+    width: 33%;
+    height: 510px;
+    margin-top: 7%;
+    margin-right: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    text-align: center;
+}
+
+.third_right h1 {
+    color: white;
+    margin-top: 8%;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 4px;
+}
+
+.third_right img {
+    margin-top: 1%;
+}
+
+.third_right div {
+    width: 75%;
+    height: 160px;
+    margin-left: 12%;
+    margin-top: 2%;
+    color: white;
+}
+
+.blin {
+    display: none;
+}
+
+/*scroll props*/
+
+.scrollNav {
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    background-color: #69A368;
+    opacity: 0.9;
+    color: #2d52ce;
+    transition: 0.5s;
+    padding: 13px;
+    box-shadow: 0px 5px 6px #71D46F;
+}
+
+.scrollli {
+    font-size: 23px;
+    color: #d4f118;
+    width: 120px;
+    margin-top: 10px;
+    float: left;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.cool-link {
+    display: inline-block;
+    color: #d4f118;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    text-decoration: none !important;
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgba(53, 239, 8, 0.97);
+    transition: width .2s;
+}
+
+.cool-link:hover::after {
+    color: #d4f118;
+    text-decoration: none !important;
+    width: 100%;
+}
+
+.cool-link:hover {
+    text-decoration: none;
+    color: #D4F118;
+}
+
+.forth_blog {
+    width: 100%;
+    height: 1000px;
+    background-image: url("../Files/sec3bg.png");
+    background-size: cover;
+}
+
+.forth_left {
+    width: 50%;
+    height: 100%;
+
+    float: left;
+}
+
+.forth_right {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.forth_left div {
+    width: 60%;
+    margin-left: 27%;
+    text-align: center;
+}
+
+.forth_left div h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: #CC9900;
+    margin-top: 100px;
+}
+
+.forth_left div p .sp1 {
+    font-size: 22px;
+    float: left;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.forth_left div p .sp2 {
+    font-size: 22px;
+    float: right;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.forth_left div p {
+    padding: 12px;
+    color: #CC9900;
+}
+
+.bnut {
+    text-align: left !important;
+    padding: 0px !important;
+    margin-left: 8px;
+    color: black !important;
+}
+
+hr {
+    background-color: #CC9900;
+}
+
+.forth_right div {
+    width: 60%;
+    margin-left: 27%;
+    text-align: center;
+}
+
+.forth_right div h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: #CC9900;
+    margin-top: 100px;
+}
+
+.forth_right div p .sp1 {
+    font-size: 22px;
+    float: left;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.forth_right div p .sp2 {
+    font-size: 22px;
+    float: right;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.forth_right div p {
+    padding: 12px;
+    color: #CC9900;
+}
+
+.fifth_blog {
+    display: flex;
+    height: 800px;
+    background-image: url("../Files/sec4bg.png");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.centr_div {
+    width: 60%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+
+}
+
+.centr_div h1 {
+    margin-top: 40px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+}
+
+.centr_div div {
+    width: 50%;
+    color: white;
+    margin-left: 25%;
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 39px;
+}
+
+.order_blog {
+    width: 100%;
+    height: 700px;
+    background-image: url("../Files/sec5bg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pics {
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputs {
+    float: right;
+    width: 45%;
+    height: 100%;
+    padding: 81px;
+
+}
+
+.inputs .bla {
+    width: 200px;
+    height: 39px;
+    border: 2px solid darkseagreen;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.inp_foot {
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+
+.inp_foot :first-child {
+    margin-left: 10%;
+}
+
+.ord_brn {
+    background-color: #CF9F10;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 25px;
+}
+
+.bla1 {
+    color: #CF9F10;
+    font-family: "Times New Roman", Times, serif;
+}
+
+footer {
+    width: 100%;
+    height: 370px;
+    background: linear-gradient(to bottom, #484848, #000000);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer_1 {
+    text-align: center;
+    width: 20%;
+    height: 300px;
+
+}
+
+.footer_2 {
+    text-align: center;
+    width: 20%;
+    height: 300px;
+
+}
+
+.footer_3 {
+    text-align: center;
+    width: 20%;
+    height: 300px;
+
+}
+
+.footer_1 h2 {
+    text-align: center;
+    color: white;
+}
+
+.footer_1 p {
+    padding-top: 6%;
+    font-size: larger;
+    color: white;
+}
+
+.footer_2 p {
+    padding-top: 6%;
+    font-size: larger;
+    color: white;
+}
+
+.footer_2 h2 {
+    color: white;
+}
+
+.footer_3 p {
+    padding-top: 6%;
+    font-size: larger;
+    color: white;
+}
+
+.footer_3 h2 {
+    text-align: center;
+    color: white;
+}
+
+.but {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 5%;
+    top: 92%;
+    z-index: 100;
+    display: none;
+    border: 2px solid #34ce57;
+    border-radius: 50px;
+    background-color: forestgreen;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.end {
+    background-color: black;
+    display: block;
+!important;
+    text-align: center;
+    color: #adb5bd;
+}
+
+
+
+
